@@ -1,2 +1,3 @@
 # trikey.space
-for The Social Makerspace
+The site for The Social Makerspace
+https://www.trikey.space/
