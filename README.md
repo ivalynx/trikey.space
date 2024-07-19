@@ -1,6 +1,5 @@
 # trikey.space
-The site for The Social Makerspace
-https://www.trikey.space/
+The site for [The Social Makerspace](https://www.trikey.space/)
 
 ## How it works
 1. fork repository
