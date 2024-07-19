@@ -8,18 +8,8 @@
     <header>
       <img src="" alt="The Social Makerspace" class="logo">
       <nav>
-        <ul>
-          <li>
-            <a href="/">Main</a>
-          </li>
-          <li>
-            <a href="/calendar">Calendar</a>
-          </li>
-          <li>
-            <a href="/about-us">About us</a>
-          </li>
-        </ul>
-      </nav>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml }}
+        </nav>
     </header>
     <main>
       <h1>{{ pageTitle }}</h1>

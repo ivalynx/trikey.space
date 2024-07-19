@@ -1,6 +1,8 @@
 ---
 layout: layout.liquid
 pageTitle: За нас
+eleventyNavigation:
+  key: За нас
 ---
 Тука трябва да бъде карта (нейният код)
 
