@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	return {
 		dir: {
-			output: "docs",
+			output: "dist",
 		},
 	};
 };
