@@ -15,5 +15,7 @@ Template is `_includes/layout.liquid`, files is `%filename.md`
 
 ## Live site
 [Deploy an Eleventy project to GitHub pagesJump to heading](https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages)
+
     ⇓
+    
 [Live site here](https://ivalynx.github.io/trikey.space/)
