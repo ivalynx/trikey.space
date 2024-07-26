@@ -12,3 +12,8 @@ Created on [11ty](https://www.11ty.dev/)
 6. `npm run build` to create files in the `dist`
 
 Template is `_includes/layout.liquid`, files is `%filename.md`
+
+## Live site
+[Deploy an Eleventy project to GitHub pagesJump to heading](https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages)
+    ⇓
+[Live site here](https://ivalynx.github.io/trikey.space/)
