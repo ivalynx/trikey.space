@@ -1,6 +1,8 @@
 # trikey.space
 The site for [The Social Makerspace](https://www.trikey.space/)
 
+Created on [11ty](https://www.11ty.dev/)
+
 ## How it works
 1. fork repository
 2. clone repository
