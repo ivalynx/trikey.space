@@ -1,7 +1,7 @@
 ---
-layout: layout.liquid
+layout: calendar.njk
 pageTitle: Calendar
 eleventyNavigation:
   key: Calendar
 ---
-Тука трябва да бъде календар  (негов код)
+Тука трябва да бъде контент за календар
