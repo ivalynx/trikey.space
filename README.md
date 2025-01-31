@@ -11,9 +11,12 @@ Created on [11ty](https://www.11ty.dev/)
 5. `npm run start` to localhost
 6. Make your changes
 7. Look it to localhost
-8. If it's OK, do it ??? `git checkout gh-pages` `git merge main`
-9. `npm run build` to create files in the `doc`
-10. 
+8. If it's OK, [commit it with your comment](https://git-scm.com/docs/git-commit)
+9. If you need, repeat 6-8
+10. When you finished, 
+  * `npm run build` to create files in the `doc`
+  * commit it with comment `build`
+  * [push it](https://git-scm.com/docs/git-push)
 
 
 Template is `_includes/layout.liquid`, page's files is `%filename.md`
