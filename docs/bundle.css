@@ -1,7 +1,9 @@
+/* bundle css */
+
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: lime;
 }
 header, main, footer {
   width: 85%;
