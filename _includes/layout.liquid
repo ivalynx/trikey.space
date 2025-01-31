@@ -11,8 +11,11 @@
       {% assign navPages = collections.all | eleventyNavigation %}
       <nav><ul>
       {%- for entry in navPages %}
-        <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+        <li{% if entry.url == 'index' %} class="currentPage">
+          {{ entry.title }}
+          {%  else %}>
           <a href="trikey.space{{ entry.url }}">{{ entry.title }}</a>
+          {% endif %} 
         </li>
       {%- endfor %}
       </ul></nav>
