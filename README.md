@@ -14,6 +14,7 @@ Created on [11ty](https://www.11ty.dev/)
 8. If it's OK, [commit it with your comment](https://git-scm.com/docs/git-commit)
 9. If you need, repeat 6-8
 10. When you finished, 
+  * check text `https://ivalynx.github.io/trikey.space` to `layout.liquid` file on `line 17` before `{{ entry.url }}` - it must be only before production!!
   * `npm run build` to create files in the `doc`
   * commit it with comment `build`
   * [push it](https://git-scm.com/docs/git-push)
