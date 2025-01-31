@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+header, main, footer {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.8em 1em;
+  background-color: bisque;
+  color: darkslateblue;
+}
