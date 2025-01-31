@@ -9,9 +9,14 @@ Created on [11ty](https://www.11ty.dev/)
 3. install npm
 4. in the repo `npm i`
 5. `npm run start` to localhost
-6. `npm run build` to create files in the `dist`
+6. Make your changes
+7. Look it to localhost
+8. If it's OK, do it ??? `git checkout gh-pages` `git merge main`
+9. `npm run build` to create files in the `doc`
+10. 
 
-Template is `_includes/layout.liquid`, files is `%filename.md`
+
+Template is `_includes/layout.liquid`, page's files is `%filename.md`
 
 ## How to make it work on GitHub pages
 [Deploy an Eleventy project to GitHub pages](https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages)
