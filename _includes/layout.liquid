@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>The Social Makerspace</title>
-    <link rel="stylesheet" href="/bundle.css">
+    {% assign mainUrl = "https://ivalynx.github.io/trikey.space" %}
+    <link rel="stylesheet" href="{{ mainUrl }}/bundle.css">
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
         {% if entry.url == page.url %}
         <li class="currentPage">{{ entry.title }}</li>
         {%  else %}
-          <li><a href="https://ivalynx.github.io/trikey.space{{ entry.url }}">{{ entry.title }}</a></li>
+          <li><a href="{{ mainUrl }}{{ entry.url }}">{{ entry.title }}</a></li>
         {% endif %}
       {%- endfor %}
       </ul></nav>
